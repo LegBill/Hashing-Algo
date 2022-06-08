@@ -1,0 +1,92 @@
+public static void main(String[] args) {
+        //ENCRYTPING<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      /* 
+       String sample = "bill";
+       String finalHash = "0";
+       
+           for (int c=0; c<=sample.length()-1;c++){
+               char flag = sample.charAt(c);
+               if(flag == 'b'){
+                   String forB = "2345";
+                   finalHash = finalHash.concat(forB);
+               }
+               else if(flag == 'i'){
+                   String forI = "y785";
+                   finalHash = finalHash.concat(forI);
+               }
+               else if(flag == 'l'){
+                   String forL = "t673";
+                   finalHash = finalHash.concat(forL);
+               }
+                   
+           }
+          
+           
+       }
+       finalHash = finalHash.replaceFirst("0", "");
+       System.out.println(finalHash);
+       
+       */
+      
+      //DECODING<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+       
+      /*String finalHash = "h4rDy785t673t673t673";
+       int startBasePoint = 0;
+       int endBasePoint = 3;
+       String decodeFlag = "";
+       String sbstrCatch = "";
+       
+       
+    for (int d = 1; d<= (finalHash.length()/4);d++){
+           for (int c = startBasePoint; c <= endBasePoint; c++){
+               
+               decodeFlag = decodeFlag.concat(Character.toString(finalHash.charAt(c)));
+               
+           }
+           
+           startBasePoint += 4;
+           endBasePoint += 4;
+           
+           if (decodeFlag.equals("658r")){
+               sbstrCatch = sbstrCatch.concat("a");
+           }
+           else if (decodeFlag.equals("2345"))
+           {
+               sbstrCatch = sbstrCatch.concat("b");
+           }
+           else if (decodeFlag.equals("uy75")){
+               sbstrCatch = sbstrCatch.concat("c");
+           }
+           else if (decodeFlag.equals("89r5")){
+               sbstrCatch = sbstrCatch.concat("d");
+           }
+           else if (decodeFlag.equals("p9o4")){
+               sbstrCatch = sbstrCatch.concat("e");
+           }
+           else if (decodeFlag.equals("owe4")){
+               sbstrCatch = sbstrCatch.concat("f");
+           }
+           else if (decodeFlag.equals("J4f6")){
+               sbstrCatch = sbstrCatch.concat("g");
+           }
+           else if (decodeFlag.equals("h4rD")){
+               sbstrCatch = sbstrCatch.concat("g");
+           }
+           else if (decodeFlag.equals("y785"))
+           {
+               sbstrCatch = sbstrCatch.concat("i");
+           }
+           else if (decodeFlag.equals("t673")){
+               sbstrCatch = sbstrCatch.concat("l");
+           }
+           
+           
+           decodeFlag = "";
+                 
+           
+       }
+     System.out.println(sbstrCatch);
+
+       
+    }*/
+    }
